@@ -9,8 +9,9 @@ from utils import mlp
 def generate_rollout(policy, env, rendering=False):
 
     def get_action(policy, obs):
-        logits = policy(obs)
-        return Categorical(logits=logits).sample().item()
+        with torch.no_grad():
+            logits = policy(obs)
+            return Categorical(logits=logits).sample().item()
 
     obs, _ = env.reset()
     done = False

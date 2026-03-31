@@ -24,7 +24,7 @@ def generate_novice_demos(env):
 
     for checkpoint in checkpoints:
 
-        policy = mlp(sizes=[obs_dim]+hidden_sizes+[n_acts],activation=nn.Tanh)
+        policy = mlp(sizes=[obs_dim]+hidden_sizes+[n_acts])
         policy.load_state_dict(torch.load(checkpoint))
         traj, ret = generate_rollout(policy, env)
         print("traj ground-truth return", ret)
