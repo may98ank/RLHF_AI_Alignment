@@ -1,0 +1,27 @@
+/Users/mayankgupta/miniconda3/envs/imitation_learning/lib/python3.9/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.[0m
+  logger.deprecation(
+/Users/mayankgupta/miniconda3/envs/imitation_learning/lib/python3.9/site-packages/gymnasium/envs/classic_control/cartpole.py:215: UserWarning: [33mWARN: You are calling render method without specifying any render mode. You can specify the render_mode at initialization, e.g. gym.make("CartPole-v0", render_mode="rgb_array")[0m
+  gym.logger.warn(
+/Users/mayankgupta/Desktop/Assignment/690S/HW3/vpg.py:122: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  batch_loss = compute_loss(obs=torch.as_tensor(batch_obs, dtype=torch.float32),
+testing
+epoch:   0 	 loss: 9.828 	 return: 21.675 	 ep_len: 21.675
+!!!!!! checkpointing policy !!!!!!
+epoch:   1 	 loss: 11.698 	 return: 24.660 	 ep_len: 24.660
+!!!!!! checkpointing policy !!!!!!
+epoch:   2 	 loss: 11.439 	 return: 25.313 	 ep_len: 25.313
+!!!!!! checkpointing policy !!!!!!
+epoch:   3 	 loss: 13.750 	 return: 28.294 	 ep_len: 28.294
+!!!!!! checkpointing policy !!!!!!
+epoch:   4 	 loss: 14.322 	 return: 30.235 	 ep_len: 30.235
+!!!!!! checkpointing policy !!!!!!
+epoch:   5 	 loss: 14.771 	 return: 31.168 	 ep_len: 31.168
+!!!!!! checkpointing policy !!!!!!
+epoch:   6 	 loss: 14.513 	 return: 33.685 	 ep_len: 33.685
+!!!!!! checkpointing policy !!!!!!
+epoch:   7 	 loss: 16.963 	 return: 37.351 	 ep_len: 37.351
+!!!!!! checkpointing policy !!!!!!
+epoch:   8 	 loss: 17.163 	 return: 38.708 	 ep_len: 38.708
+!!!!!! checkpointing policy !!!!!!
+epoch:   9 	 loss: 17.607 	 return: 41.775 	 ep_len: 41.775
+!!!!!! checkpointing policy !!!!!!
