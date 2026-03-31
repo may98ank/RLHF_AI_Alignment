@@ -1,0 +1,95 @@
+/Users/mayankgupta/miniconda3/envs/imitation_learning/lib/python3.9/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.[0m
+  logger.deprecation(
+traj ground-truth return 20.0
+traj ground-truth return 11.0
+traj ground-truth return 16.0
+traj ground-truth return 34.0
+traj ground-truth return 46.0
+traj ground-truth return 41.0
+traj ground-truth return 48.0
+traj ground-truth return 97.0
+traj ground-truth return 51.0
+traj ground-truth return 38.0
+checkpointing
+finished training
+performance on training data
+predicted return trajA 10.50370979309082
+predicted return trajB 42.50248718261719
+B should be better
+
+predicted return trajA 6.574856758117676
+predicted return trajB 42.50248718261719
+B should be better
+
+predicted return trajA 23.240217208862305
+predicted return trajB 34.27657699584961
+B should be better
+
+predicted return trajA 23.240217208862305
+predicted return trajB 10.50370979309082
+A should be better
+
+predicted return trajA 34.5499153137207
+predicted return trajB 10.50370979309082
+A should be better
+
+predicted return trajA 42.50248718261719
+predicted return trajB 6.574856758117676
+A should be better
+
+predicted return trajA 23.240217208862305
+predicted return trajB 10.50370979309082
+A should be better
+
+predicted return trajA 77.40275573730469
+predicted return trajB 34.5499153137207
+A should be better
+
+predicted return trajA 29.0076847076416
+predicted return trajB 34.5499153137207
+B should be better
+
+predicted return trajA 42.50248718261719
+predicted return trajB 29.0076847076416
+A should be better
+
+predicted return trajA 77.40275573730469
+predicted return trajB 34.5499153137207
+A should be better
+
+predicted return trajA 6.574856758117676
+predicted return trajB 42.50248718261719
+B should be better
+
+predicted return trajA 23.240217208862305
+predicted return trajB 34.27657699584961
+B should be better
+
+predicted return trajA 23.240217208862305
+predicted return trajB 29.0076847076416
+B should be better
+
+predicted return trajA 42.50248718261719
+predicted return trajB 34.5499153137207
+A should be better
+
+predicted return trajA 29.0076847076416
+predicted return trajB 14.65595817565918
+A should be better
+
+predicted return trajA 42.50248718261719
+predicted return trajB 34.5499153137207
+A should be better
+
+predicted return trajA 34.27657699584961
+predicted return trajB 77.40275573730469
+B should be better
+
+predicted return trajA 77.40275573730469
+predicted return trajB 6.574856758117676
+A should be better
+
+predicted return trajA 34.27657699584961
+predicted return trajB 10.50370979309082
+A should be better
+
