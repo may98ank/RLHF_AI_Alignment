@@ -157,7 +157,8 @@ if __name__ == '__main__':
     parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--checkpoint', action='store_true')
     parser.add_argument('--checkpoint_dir', type=str, default='\.')
-    parser.add_argument('--reward_params', type=str, default='', help="parameters of learned reward function")
+    parser.add_argument('--reward_params', '--reward', type=str, default='',
+                        help='learned reward weights (reward.params); same as --reward')
     args = parser.parse_args()
     
     
@@ -177,7 +178,7 @@ if __name__ == '__main__':
         print("training on learned reward function")
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         reward_net = Net()
-        reward_net.load_state_dict(torch.load(args.reward_params))
+        reward_net.load_state_dict(torch.load(args.reward_params, map_location=device))
         reward_net.to(device)
         train(env_name=args.env_name, render=args.render, lr=args.lr, 
               epochs=args.epochs, reward=reward_net, checkpoint=args.checkpoint, 

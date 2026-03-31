@@ -1,0 +1,8 @@
+/Users/mayankgupta/miniconda3/envs/imitation_learning/lib/python3.9/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.[0m
+  logger.deprecation(
+cumulative return 200.0
+cumulative return 200.0
+cumulative return 200.0
+cumulative return 95.0
+cumulative return 200.0
+average return 179.0

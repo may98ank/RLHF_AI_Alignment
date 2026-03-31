@@ -1,0 +1,106 @@
+/Users/mayankgupta/miniconda3/envs/imitation_learning/lib/python3.9/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.[0m
+  logger.deprecation(
+/Users/mayankgupta/Desktop/Assignment/690S/HW3/vpg.py:122: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  batch_loss = compute_loss(obs=torch.as_tensor(batch_obs, dtype=torch.float32),
+testing
+training on learned reward function
+epoch:   0 	 loss: 8.270 	 predicted return: 16.477 	 ep_len (gt reward): 22.362
+!!!!!! checkpointing policy !!!!!!
+epoch:   1 	 loss: 8.082 	 predicted return: 18.343 	 ep_len (gt reward): 24.517
+!!!!!! checkpointing policy !!!!!!
+epoch:   2 	 loss: 8.803 	 predicted return: 18.818 	 ep_len (gt reward): 24.277
+!!!!!! checkpointing policy !!!!!!
+epoch:   3 	 loss: 9.940 	 predicted return: 20.676 	 ep_len (gt reward): 26.670
+!!!!!! checkpointing policy !!!!!!
+epoch:   4 	 loss: 10.352 	 predicted return: 22.396 	 ep_len (gt reward): 28.874
+!!!!!! checkpointing policy !!!!!!
+epoch:   5 	 loss: 10.035 	 predicted return: 23.559 	 ep_len (gt reward): 31.093
+!!!!!! checkpointing policy !!!!!!
+epoch:   6 	 loss: 12.129 	 predicted return: 26.668 	 ep_len (gt reward): 34.068
+!!!!!! checkpointing policy !!!!!!
+epoch:   7 	 loss: 11.205 	 predicted return: 25.963 	 ep_len (gt reward): 34.452
+!!!!!! checkpointing policy !!!!!!
+epoch:   8 	 loss: 12.867 	 predicted return: 29.499 	 ep_len (gt reward): 38.884
+!!!!!! checkpointing policy !!!!!!
+epoch:   9 	 loss: 13.409 	 predicted return: 32.848 	 ep_len (gt reward): 43.557
+!!!!!! checkpointing policy !!!!!!
+epoch:  10 	 loss: 14.848 	 predicted return: 35.178 	 ep_len (gt reward): 45.963
+!!!!!! checkpointing policy !!!!!!
+epoch:  11 	 loss: 13.494 	 predicted return: 33.659 	 ep_len (gt reward): 44.652
+!!!!!! checkpointing policy !!!!!!
+epoch:  12 	 loss: 16.144 	 predicted return: 38.453 	 ep_len (gt reward): 50.818
+!!!!!! checkpointing policy !!!!!!
+epoch:  13 	 loss: 15.092 	 predicted return: 38.141 	 ep_len (gt reward): 49.373
+!!!!!! checkpointing policy !!!!!!
+epoch:  14 	 loss: 16.438 	 predicted return: 43.040 	 ep_len (gt reward): 55.802
+!!!!!! checkpointing policy !!!!!!
+epoch:  15 	 loss: 14.926 	 predicted return: 41.307 	 ep_len (gt reward): 55.297
+!!!!!! checkpointing policy !!!!!!
+epoch:  16 	 loss: 15.916 	 predicted return: 44.506 	 ep_len (gt reward): 58.488
+!!!!!! checkpointing policy !!!!!!
+epoch:  17 	 loss: 15.800 	 predicted return: 44.641 	 ep_len (gt reward): 58.663
+!!!!!! checkpointing policy !!!!!!
+epoch:  18 	 loss: 17.074 	 predicted return: 51.086 	 ep_len (gt reward): 65.481
+!!!!!! checkpointing policy !!!!!!
+epoch:  19 	 loss: 15.791 	 predicted return: 46.309 	 ep_len (gt reward): 60.554
+!!!!!! checkpointing policy !!!!!!
+epoch:  20 	 loss: 15.365 	 predicted return: 45.220 	 ep_len (gt reward): 59.035
+!!!!!! checkpointing policy !!!!!!
+epoch:  21 	 loss: 19.058 	 predicted return: 55.864 	 ep_len (gt reward): 71.000
+!!!!!! checkpointing policy !!!!!!
+epoch:  22 	 loss: 19.077 	 predicted return: 54.466 	 ep_len (gt reward): 69.342
+!!!!!! checkpointing policy !!!!!!
+epoch:  23 	 loss: 18.105 	 predicted return: 53.121 	 ep_len (gt reward): 67.147
+!!!!!! checkpointing policy !!!!!!
+epoch:  24 	 loss: 19.963 	 predicted return: 61.987 	 ep_len (gt reward): 80.952
+!!!!!! checkpointing policy !!!!!!
+epoch:  25 	 loss: 21.765 	 predicted return: 67.785 	 ep_len (gt reward): 87.776
+!!!!!! checkpointing policy !!!!!!
+epoch:  26 	 loss: 20.472 	 predicted return: 63.208 	 ep_len (gt reward): 79.857
+!!!!!! checkpointing policy !!!!!!
+epoch:  27 	 loss: 19.069 	 predicted return: 63.063 	 ep_len (gt reward): 82.787
+!!!!!! checkpointing policy !!!!!!
+epoch:  28 	 loss: 22.507 	 predicted return: 69.569 	 ep_len (gt reward): 87.724
+!!!!!! checkpointing policy !!!!!!
+epoch:  29 	 loss: 23.098 	 predicted return: 74.536 	 ep_len (gt reward): 92.000
+!!!!!! checkpointing policy !!!!!!
+epoch:  30 	 loss: 27.557 	 predicted return: 86.748 	 ep_len (gt reward): 105.551
+!!!!!! checkpointing policy !!!!!!
+epoch:  31 	 loss: 28.098 	 predicted return: 92.214 	 ep_len (gt reward): 113.795
+!!!!!! checkpointing policy !!!!!!
+epoch:  32 	 loss: 32.283 	 predicted return: 100.987 	 ep_len (gt reward): 112.911
+!!!!!! checkpointing policy !!!!!!
+epoch:  33 	 loss: 34.636 	 predicted return: 111.700 	 ep_len (gt reward): 132.816
+!!!!!! checkpointing policy !!!!!!
+epoch:  34 	 loss: 37.450 	 predicted return: 129.226 	 ep_len (gt reward): 156.000
+!!!!!! checkpointing policy !!!!!!
+epoch:  35 	 loss: 38.724 	 predicted return: 139.038 	 ep_len (gt reward): 167.133
+!!!!!! checkpointing policy !!!!!!
+epoch:  36 	 loss: 44.123 	 predicted return: 151.086 	 ep_len (gt reward): 173.241
+!!!!!! checkpointing policy !!!!!!
+epoch:  37 	 loss: 38.795 	 predicted return: 141.730 	 ep_len (gt reward): 169.967
+!!!!!! checkpointing policy !!!!!!
+epoch:  38 	 loss: 44.236 	 predicted return: 153.444 	 ep_len (gt reward): 174.379
+!!!!!! checkpointing policy !!!!!!
+epoch:  39 	 loss: 45.861 	 predicted return: 155.821 	 ep_len (gt reward): 161.419
+!!!!!! checkpointing policy !!!!!!
+epoch:  40 	 loss: 55.648 	 predicted return: 182.052 	 ep_len (gt reward): 164.871
+!!!!!! checkpointing policy !!!!!!
+epoch:  41 	 loss: 57.936 	 predicted return: 196.548 	 ep_len (gt reward): 165.452
+!!!!!! checkpointing policy !!!!!!
+epoch:  42 	 loss: 53.704 	 predicted return: 180.165 	 ep_len (gt reward): 155.364
+!!!!!! checkpointing policy !!!!!!
+epoch:  43 	 loss: 56.416 	 predicted return: 187.794 	 ep_len (gt reward): 158.469
+!!!!!! checkpointing policy !!!!!!
+epoch:  44 	 loss: 61.306 	 predicted return: 200.034 	 ep_len (gt reward): 155.394
+!!!!!! checkpointing policy !!!!!!
+epoch:  45 	 loss: 56.631 	 predicted return: 194.985 	 ep_len (gt reward): 157.156
+!!!!!! checkpointing policy !!!!!!
+epoch:  46 	 loss: 61.977 	 predicted return: 203.898 	 ep_len (gt reward): 162.194
+!!!!!! checkpointing policy !!!!!!
+epoch:  47 	 loss: 59.812 	 predicted return: 212.353 	 ep_len (gt reward): 163.419
+!!!!!! checkpointing policy !!!!!!
+epoch:  48 	 loss: 59.481 	 predicted return: 212.739 	 ep_len (gt reward): 178.483
+!!!!!! checkpointing policy !!!!!!
+epoch:  49 	 loss: 59.997 	 predicted return: 214.592 	 ep_len (gt reward): 186.222
+!!!!!! checkpointing policy !!!!!!
